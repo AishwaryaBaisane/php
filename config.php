@@ -25,17 +25,19 @@
             $this->connect();
         }
 
+    
+
         public function insert($name,$role,$salary,$age,$address,$phone)
         { 
             $query = "INSERT INTO employee (name,role,salary,age,address,phone)  VALUES('$name','$role',$salary,$age,'$address',$phone)";
             $res = mysqli_query($this->connection,$query);
-            if($res)
-               {
-                echo "Database Connect successfully !";
-               }
-               else{
-                echo "Database Connect faild !";
-               }
+            // if($res)
+            //    {
+            //     echo "Database Connect successfully !";
+            //    }
+            //    else{
+            //     echo "Database Connect faild !";
+            //    }
         }
 
         public function fetch()
@@ -48,6 +50,12 @@
         public function delete($id)
         {
             $query = "DELETE FROM employee WHERE id = $id";
+            $res = mysqli_query($this->connection,$query);
+            return $res;
+        }
+
+        public function update($id,$name,$role,$salary,$age,$address,$phone) {
+            $query = "UPDATE employee SET name='$name', role='$role', salary=$salary,age=$age,address='$address',phone=$phone WHERE id=$id";
             $res = mysqli_query($this->connection,$query);
             return $res;
         }
