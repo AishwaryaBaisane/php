@@ -18,8 +18,7 @@
 </div>
      
 ### 🖥️ Employee Registration System with Bootstrap
-- This system allows companies to register, view, update, and delete employee records in an efficient and user-friendly way.
-- 
+- This system allows companies to register, view, update, and delete employee records in an efficient and user-friendly way. 
 <p>
   <img  height="350"src = "https://github.com/user-attachments/assets/dd5cf2ee-863e-4854-b699-01691353f543">
 </p>
