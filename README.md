@@ -14,10 +14,10 @@
 - ⚙️ Local Server: Use tools like XAMPP, WAMP, or MAMP for testing and deployment.
 
 <div>
-
    <video height="450" src="https://github.com/user-attachments/assets/14840be7-6353-4e48-a981-5a03081ec256" />
-
 </div>
+### 🖥️ Employee Registration System with Bootstrap
+This system allows companies to register, view, update, and delete employee records in an efficient and user-friendly way.
 <p>
   <img  height="350"src = "https://github.com/user-attachments/assets/dd5cf2ee-863e-4854-b699-01691353f543">
 </p>
