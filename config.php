@@ -37,8 +37,25 @@
                 echo "Database Connect faild !";
                }
         }
+
+        public function fetch()
+        {
+        $query = "SELECT * FROM employee";
+        $res = mysqli_query($this->connection,$query);
+        return $res;
+        }
+
+        public function delete($id)
+        {
+            $query = "DELETE FROM employee WHERE id = $id";
+            $res = mysqli_query($this->connection,$query);
+            return $res;
+        }
         
     }
+
+
+
     // <!-- name role salary age  address phone-->
    
 ?>
