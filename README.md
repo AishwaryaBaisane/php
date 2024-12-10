@@ -1,4 +1,4 @@
-![Employee Form with Update Dialog - Google Chrome 10-12-2024 19_08_49](https://github.com/user-attachments/assets/7c692a84-fa76-4d6e-8427-9e6bcf9868d5)## 👩‍💼 Employee Registration Form
+## 👩‍💼 Employee Registration Form
 - This is a simple and efficient Employee Registration System built using PHP and MySQL.
 - It allows companies to register employee details, including their Name, Age, Phone Number, Address, and Job Role.
 
