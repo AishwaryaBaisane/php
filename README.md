@@ -65,7 +65,6 @@
 ##### Step 2: Test Your API with Postman
 - Create a Request:
 - Select POST as the method.
-- Enter the API endpoint (e.g., http://your-api-domain.com/register-employee).
 - Check the response:
   
 ### 📋 Successful Response:
