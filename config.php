@@ -3,7 +3,7 @@
     class Config
     {
         private $host = "localhost";
-        private $username = "root";
+    private $username = "root";
         private $password = "";
         private $database = "demo";
         private $connection;
@@ -31,13 +31,7 @@
         { 
             $query = "INSERT INTO employee (name,role,salary,age,address,phone)  VALUES('$name','$role',$salary,$age,'$address',$phone)";
             $res = mysqli_query($this->connection,$query);
-            // if($res)
-            //    {
-            //     echo "Database Connect successfully !";
-            //    }
-            //    else{
-            //     echo "Database Connect faild !";
-            //    }
+            return $res;
         }
 
         public function fetch()
